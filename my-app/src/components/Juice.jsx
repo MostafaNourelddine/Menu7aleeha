@@ -24,7 +24,7 @@ function Juice() {
           </div>
 
           <img
-            src="/juice.png"
+            src="/juices.png"
             alt="Juices"
             className="w-48 h-auto mt-6 md:mt-0"
           />
