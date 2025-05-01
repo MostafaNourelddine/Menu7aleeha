@@ -35,12 +35,39 @@ const Smoothies = () => {
             className="flex flex-col items-center w-36"
             style={{ fontFamily: "'Rakkas', cursive" }}
           >
-            <div className=" leading-none bg-white text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
+            <div className=" leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
               {item.name}
             </div>
             <p className="text-[#f6869d] text-lg mt-2">{item.price}</p>
           </div>
         ))}
+      </div>
+      <div className="flex flex-col items-center md:items-start">
+        <h2
+          style={{ fontFamily: "'Rakkas', cursive" }}
+          className="text-4xl text-[#f6869d] tracking-wide mt-[2rem]"
+        >
+          Energy Drinks
+        </h2>
+        <div className="h-1 w-20 bg-[#f6869d] mt-2"></div>
+      </div>
+      <div
+        className="flex flex-col items-center w-36 mt-8"
+        style={{ fontFamily: "'Rakkas', cursive" }}
+      >
+        <div className=" leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
+          Boom Boom
+        </div>
+        <p className="text-[#f6869d] text-lg mt-2">200</p>
+      </div>
+      <div
+        className="flex flex-col items-center w-36 mt-8"
+        style={{ fontFamily: "'Rakkas', cursive" }}
+      >
+        <div className=" leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
+          Dark Blue
+        </div>
+        <p className="text-[#f6869d] text-lg mt-2">180</p>
       </div>
     </div>
   );

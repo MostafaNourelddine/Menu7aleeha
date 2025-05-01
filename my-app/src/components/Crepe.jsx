@@ -41,7 +41,6 @@ function Crepe() {
           { name: "brownies", price: "400" },
           { name: "pancake", price: "400" },
           { name: "mini pancake", price: "450" },
-          { name: "dounats", price: "120" },
           { name: "special", price: "600" },
           { name: "mix", price: "400" },
           { name: "add icecream", price: "50" },

@@ -34,7 +34,7 @@ function Juice() {
         <div className="flex flex-wrap justify-center gap-6 mt-10 w-full max-w-5xl">
           {[
             "تفاح",
-            "أفوكا",
+            "منغا",
             "كوكتيل",
             "جزر",
             "فريز",
@@ -53,6 +53,15 @@ function Juice() {
               <p className="text-[#f6869d]  text-xl mt-2">200</p>
             </div>
           ))}
+        </div>
+        <div
+          className="flex flex-col items-center w-32"
+          style={{ fontFamily: "'Rakkas', cursive" }}
+        >
+          <div className="leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full   text-center text-3xl">
+            اي نوع عصير
+          </div>
+          <p className="text-[#f6869d]  text-xl mt-2">500</p>
         </div>
       </div>
     </div>

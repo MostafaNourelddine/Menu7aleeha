@@ -36,10 +36,12 @@ function Croissant() {
           { name: "4 cheese", price: "200" },
           { name: "taxis", price: "200" },
           { name: "حلوم", price: "170" },
-          { name: "فقدوان", price: "170" },
+          { name: "قشقوان", price: "170" },
           { name: "عكاوي", price: "170" },
           { name: "قشقوان ومرتدلا", price: "200" },
           { name: "cheetos", price: "170" },
+          { name: "dounats", price: "120" },
+
           { name: "قشقوان وجبنه", price: "220" },
         ].map((item, index) => (
           <div
