@@ -12,13 +12,13 @@ function Cocktail() {
         }}
       >
         {/* Section Title */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center px-20">
           {/* Top section: Image + Cocktail Title */}
           <div className="flex items-center justify-center gap-6 w-full">
             <img
               src="/cocktail.png"
               alt="Cocktails"
-              className="w-60 h-auto mt-6 md:mt-0"
+              className="w-52 h-auto mt-6 md:mt-0"
             />
             <div className="flex flex-col items-center md:items-start mt-[4rem]">
               <h2
@@ -78,7 +78,7 @@ function Cocktail() {
         </div>
       </div>
       <div className="flex flex-col items-center md:items-start mt-[4rem]">
-        <div className="flex items-center justify-center gap-6 w-full">
+        <div className="flex items-center justify-center gap-6 w-full px-8">
           <div className="flex flex-col items-center md:items-start mt-[4rem]">
             <h2
               style={{ fontFamily: "'Rakkas', cursive" }}
@@ -91,7 +91,7 @@ function Cocktail() {
           <img
             src="/icecream2.png"
             alt="Cocktails"
-            className="w-52 h-auto mt-6 md:mt-0"
+            className="w-48 h-auto mt-6 md:mt-0"
           />
         </div>
         <div

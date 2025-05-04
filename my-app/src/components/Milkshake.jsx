@@ -11,11 +11,11 @@ const Milkshake = () => {
       }}
     >
       {/* Top section with image and title */}
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center px-20 ">
         <img
           src="/milkshakes.png"
           alt="Milkshake"
-          className="w-60 h-auto mt-6 md:mt-0"
+          className="w-52 h-auto mt-6 md:mt-0"
         />
         <div className="flex flex-col items-center md:items-start">
           <h2
@@ -32,14 +32,14 @@ const Milkshake = () => {
 
       {/* Items */}
       <div className="flex flex-wrap justify-around gap-6 mt-10 w-full max-w-4xl">
-        {["lotus", "strawberry", "oreo", "nutella", "passion", "kinder"].map(
+        {["lotus", "strawberry", "oreo", "nutella", "kinder"].map(
           (item, index) => (
             <div
               key={index}
               className="flex flex-col items-center w-32"
               style={{ fontFamily: "'Rakkas', cursive" }}
             >
-              <div className="bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl">
+              <div className="bg-white text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl">
                 {item}
               </div>
               <p className="text-[#f6869d] text-lg mt-2">250</p>

@@ -4,7 +4,7 @@ const Smoothies = () => {
   return (
     <div className="flex flex-col items-center mt-10 px-4">
       {/* Top section with image and title */}
-      <div className="flex items-center justify-center  ">
+      <div className="flex items-center justify-center px-20  ">
         <div className="flex flex-col items-center md:items-start">
           <h2
             style={{ fontFamily: "'Rakkas', cursive" }}
@@ -17,7 +17,7 @@ const Smoothies = () => {
         <img
           src="/smoothies.png"
           alt="Smoothies"
-          className="w-60 h-auto mt-6 md:mt-0"
+          className="w-52 h-auto mt-6 md:mt-0"
         />
       </div>
 
@@ -29,6 +29,7 @@ const Smoothies = () => {
           { name: "mango", price: "250" },
           { name: "passion orange", price: "200" },
           { name: "mango strawberry", price: "250" },
+          { name: "mango passion", price: "250" },
         ].map((item, index) => (
           <div
             key={index}

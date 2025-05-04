@@ -12,7 +12,7 @@ function Crepe() {
       }}
     >
       {/* Top Section (Title + Image) */}
-      <div className="flex gap-2 items-center justify-center ">
+      <div className="flex gap-2 items-center justify-center px-20 ">
         <div className="flex flex-col items-center md:items-start">
           <h2
             style={{ fontFamily: "'Rakkas', cursive" }}
@@ -25,7 +25,7 @@ function Crepe() {
         <img
           src="/crepe.png"
           alt="Crepe"
-          className="w-60 h-auto mt-6 md:mt-0"
+          className="w-52 h-auto mt-6 md:mt-0"
         />
       </div>
 
