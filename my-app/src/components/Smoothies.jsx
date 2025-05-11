@@ -57,7 +57,7 @@ const Smoothies = () => {
         style={{ fontFamily: "'Rakkas', cursive" }}
       >
         <div className=" leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
-          Boom Boom
+          Boom Boom(Syrup)
         </div>
         <p className="text-[#f6869d] text-lg mt-2">200</p>
       </div>
@@ -66,7 +66,7 @@ const Smoothies = () => {
         style={{ fontFamily: "'Rakkas', cursive" }}
       >
         <div className=" leading-none bg-[#fddeda] text-[#f6869d] w-full h-10 flex items-center justify-center rounded-full text-center text-2xl md:text-2xl px-2">
-          Dark Blue
+          Dark Blue(Syrup)
         </div>
         <p className="text-[#f6869d] text-lg mt-2">180</p>
       </div>
