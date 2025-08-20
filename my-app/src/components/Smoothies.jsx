@@ -30,6 +30,9 @@ const Smoothies = () => {
           { name: "passion orange", price: "200" },
           { name: "mango strawberry", price: "250" },
           { name: "mango passion", price: "250" },
+          { name: "mix berry", price: "250" },
+          { name: "frape caramel", price: "300" },
+          { name: "dark chocolate", price: "300" },
         ].map((item, index) => (
           <div
             key={index}

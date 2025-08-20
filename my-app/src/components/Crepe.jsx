@@ -32,7 +32,7 @@ function Crepe() {
       {/* Items Section */}
       <div className="flex flex-wrap justify-center gap-8 mt-10 w-full max-w-4xl">
         {[
-          { name: "nutella", price: "250" },
+          { name: "nutella", price: "300" },
           { name: "lotus", price: "300" },
           { name: "oreo", price: "300" },
           { name: "kinder", price: "300" },
@@ -44,7 +44,7 @@ function Crepe() {
           { name: "special", price: "600" },
           { name: "mix", price: "400" },
           { name: "add icecream", price: "50" },
-          { name: "add fruites", price: "50" },
+          { name: "add fruites", price: "100" },
         ].map((item, index) => (
           <div
             key={index}
